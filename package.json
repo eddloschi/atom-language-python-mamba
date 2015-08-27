@@ -1,7 +1,7 @@
 {
   "name": "language-python-mamba",
   "main": "./lib/language-python-mamba",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "mamba specs syntax highlighting and snippets",
   "keywords": [
     "bdd",
