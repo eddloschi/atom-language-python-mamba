@@ -24,10 +24,10 @@
     'prefix': '_desno'
     'body': "with _description(${1:object}):\n    ${0:pass}"
   'Context':
-    'prefix': 'con'
+    'prefix': 'conx'
     'body': "with context('${1:context}'):\n    ${0:pass}"
   'Pending Context':
-    'prefix': '_con'
+    'prefix': '_conx'
     'body': "with _context('${1:context}'):\n    ${0:pass}"
   'Before All':
     'prefix': 'befa'
