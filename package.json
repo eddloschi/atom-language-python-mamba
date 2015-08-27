@@ -10,7 +10,7 @@
     "spec",
     "test"
   ],
-  "repository": "https://github.com/eddloschi/language-python-mamba",
+  "repository": "https://github.com/eddloschi/atom-language-python-mamba",
   "license": "MIT",
   "engines": {
     "atom": "*"
