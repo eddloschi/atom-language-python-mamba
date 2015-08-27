@@ -42,8 +42,8 @@
     'prefix': 'afte'
     'body': 'with after.each:\n    ${0:pass}'
   'Example':
-    'prefix': 'it'
+    'prefix': 'itx'
     'body': "with it('${1:example}'):\n    ${0:pass}"
   'Pending Example':
-    'prefix': '_it'
+    'prefix': '_itx'
     'body': "with _it('${1:example}'):\n    ${0:pass}"
