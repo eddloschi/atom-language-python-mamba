@@ -1,0 +1,66 @@
+'name': 'Python (mamba)'
+'scopeName': 'source.python.mamba'
+'fileTypes': [
+  'spec.py'
+]
+'patterns': [
+  {
+    'match': '\\b(description|describe)\\b'
+    'name': 'support.function.mamba.description'
+  }
+  {
+    'match': '\\bcontext\\b'
+    'name': 'support.function.mamba.context'
+  }
+  {
+    'match': '\\b(_description|_describe)\\b'
+    'name': 'support.function.mamba.description.pending'
+  }
+  {
+    'match': '\\b_context\\b'
+    'name': 'support.function.mamba.context.pending'
+  }
+  {
+    'match': '\\bit\\b'
+    'name': 'support.function.mamba.example'
+  }
+  {
+    'match': '\\b_it\\b'
+    'name': 'support.function.mamba.example.pending'
+  }
+  {
+    'match': '\\b(before)\\.(all)\\b'
+    'captures':
+      '1':
+        'name': 'support.function.mamba.hook.before'
+      '2':
+        'name': 'support.function.mamba.hook.all'
+  }
+  {
+    'match': '\\b(before)\\.(each)\\b'
+    'captures':
+      '1':
+        'name': 'support.function.mamba.hook.before'
+      '2':
+        'name': 'support.function.mamba.hook.each'
+  }
+  {
+    'match': '\\b(after)\\.(all)\\b'
+    'captures':
+      '1':
+        'name': 'support.function.mamba.hook.after'
+      '2':
+        'name': 'support.function.mamba.hook.all'
+  }
+  {
+    'match': '\\b(after)\\.(each)\\b'
+    'captures':
+      '1':
+        'name': 'support.function.mamba.hook.after'
+      '2':
+        'name': 'support.function.mamba.hook.each'
+  }
+  {
+    'include': 'source.python'
+  }
+]
