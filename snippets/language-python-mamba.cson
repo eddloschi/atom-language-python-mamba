@@ -1,16 +1,28 @@
 '.source.python.mamba':
-  'Describe':
-    'prefix': 'des'
+  'Describe String':
+    'prefix': 'dess'
     'body': "with describe('${1:description}'):\n    ${0:pass}"
-  'Description':
-    'prefix': 'desn'
+  'Describe Object':
+    'prefix': 'deso'
+    'body': "with describe(${1:object}):\n    ${0:pass}"
+  'Description String':
+    'prefix': 'desns'
     'body': "with description('${1:description}'):\n    ${0:pass}"
-  'Pending Describe':
-    'prefix': '_des'
+  'Description Object':
+    'prefix': 'desno'
+    'body': "with description(${1:object}):\n    ${0:pass}"
+  'Pending Describe String':
+    'prefix': '_dess'
     'body': "with _describe('${1:description}'):\n    ${0:pass}"
-  'Pending Description':
-    'prefix': '_desn'
+  'Pending Describe Object':
+    'prefix': '_deso'
+    'body': "with _describe(${1:object}):\n    ${0:pass}"
+  'Pending Description String':
+    'prefix': '_desns'
     'body': "with _description('${1:description}'):\n    ${0:pass}"
+  'Pending Description Object':
+    'prefix': '_desno'
+    'body': "with _description(${1:object}):\n    ${0:pass}"
   'Context':
     'prefix': 'con'
     'body': "with context('${1:context}'):\n    ${0:pass}"
