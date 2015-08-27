@@ -1,0 +1,18 @@
+{
+  "name": "language-python-mamba",
+  "main": "./lib/language-python-mamba",
+  "version": "1.0.0",
+  "description": "mamba specs syntax highlighting and snippets",
+  "keywords": [
+    "bdd",
+    "mamba",
+    "python",
+    "spec",
+    "test"
+  ],
+  "repository": "https://github.com/eddloschi/language-python-mamba",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  }
+}
