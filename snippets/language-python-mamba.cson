@@ -1,0 +1,37 @@
+'.source.python.mamba':
+  'Describe':
+    'prefix': 'des'
+    'body': "with describe('${1:description}'):\n    ${0:pass}"
+  'Description':
+    'prefix': 'desn'
+    'body': "with description('${1:description}'):\n    ${0:pass}"
+  'Pending Describe':
+    'prefix': '_des'
+    'body': "with _describe('${1:description}'):\n    ${0:pass}"
+  'Pending Description':
+    'prefix': '_desn'
+    'body': "with _description('${1:description}'):\n    ${0:pass}"
+  'Context':
+    'prefix': 'con'
+    'body': "with context('${1:context}'):\n    ${0:pass}"
+  'Pending Context':
+    'prefix': '_con'
+    'body': "with _context('${1:context}'):\n    ${0:pass}"
+  'Before All':
+    'prefix': 'befa'
+    'body': 'with before.all:\n    ${0:pass}'
+  'Before Each':
+    'prefix': 'befe'
+    'body': 'with before.each:\n    ${0:pass}'
+  'After All':
+    'prefix': 'afta'
+    'body': 'with after.all:\n    ${0:pass}'
+  'After Each':
+    'prefix': 'afte'
+    'body': 'with after.each:\n    ${0:pass}'
+  'Example':
+    'prefix': 'it'
+    'body': "with it('${1:example}'):\n    ${0:pass}"
+  'Pending Example':
+    'prefix': '_it'
+    'body': "with _it('${1:example}'):\n    ${0:pass}"
