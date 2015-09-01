@@ -7,4 +7,4 @@ module.exports =
       editor.setGrammar mambaGrammar
 
   _isMambaFile: (path) ->
-    path.match('[-_]spec\.py$')?
+    path?.match?('[-_]spec\.py$')?

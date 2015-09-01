@@ -23,3 +23,6 @@ describe 'language-python-mamba', ->
 
     it 'should require a separator', ->
       expect(language_python_mamba._isMambaFile('samplespec.py')).toBe false
+
+    it 'should return false if path is undefined', ->
+      expect(language_python_mamba._isMambaFile(undefined)).toBe false
